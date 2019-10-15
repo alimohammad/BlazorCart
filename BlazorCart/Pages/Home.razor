@@ -1,0 +1,38 @@
+﻿@page "/"
+
+@using BlazorCart.Data
+@using Newtonsoft.Json
+@inject HttpClient Http
+
+<div class="card-deck">
+    @foreach (Product item in Products)
+    {
+        <div @key="item" class="card">
+            <img src="@item.ImageUrl" style="max-width: 200px;" class="card-img-top img-fluid" alt="@item.Name">
+            <div class="card-body">
+                <h5 class="card-title">@item.Name</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            <div class="card-footer">
+                <h6>@item.Price</h6>
+            </div>
+        </div>
+    }
+</div>
+
+@code {
+    [Parameter]
+    public List<Product> Products { set; get; } = new List<Product>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        var result = await this.GetProductsAsync();
+        Products.AddRange(result);
+    }
+
+    private async Task<List<Product>> GetProductsAsync()
+    {
+        var data = await Http.GetStringAsync("products");
+        return JsonConvert.DeserializeObject<List<Product>>(data);
+    }
+}

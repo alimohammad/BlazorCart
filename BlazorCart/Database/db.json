@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "json-server",
+      "price": 20.04,
+      "imageUrl": "https://image.spreadshirtmedia.net/image-server/v1/mp/products/T6A231MPA4289PT17X48Y33D145836294FS3799"
+    },
+    {
+      "id": 2,
+      "name": "json-server-2",
+      "price": 20.07,
+      "imageUrl": "https://image.spreadshirtmedia.net/image-server/v1/mp/products/T631A2MPA4095PT17X20Y77D147822715FS2287"
+    },
+    {
+      "id": 1,
+      "name": "json-server",
+      "price": 20.04,
+      "imageUrl": "https://image.spreadshirtmedia.net/image-server/v1/mp/products/T6A231MPA4289PT17X48Y33D145836294FS3799"
+    },
+    {
+      "id": 2,
+      "name": "json-server-2",
+      "price": 20.07,
+      "imageUrl": "https://image.spreadshirtmedia.net/image-server/v1/mp/products/T631A2MPA4095PT17X20Y77D147822715FS2287"
+    },
+    {
+      "id": 1,
+      "name": "json-server",
+      "price": 20.04,
+      "imageUrl": "https://image.spreadshirtmedia.net/image-server/v1/mp/products/T6A231MPA4289PT17X48Y33D145836294FS3799"
+    },
+    {
+      "id": 2,
+      "name": "json-server-2",
+      "price": 20.07,
+      "imageUrl": "https://image.spreadshirtmedia.net/image-server/v1/mp/products/T631A2MPA4095PT17X20Y77D147822715FS2287"
+    },
+    {
+      "id": 1,
+      "name": "json-server",
+      "price": 20.04,
+      "imageUrl": "https://image.spreadshirtmedia.net/image-server/v1/mp/products/T6A231MPA4289PT17X48Y33D145836294FS3799"
+    },
+    {
+      "id": 2,
+      "name": "json-server-2",
+      "price": 20.07,
+      "imageUrl": "https://image.spreadshirtmedia.net/image-server/v1/mp/products/T631A2MPA4095PT17X20Y77D147822715FS2287"
+    }
+  ]
+}

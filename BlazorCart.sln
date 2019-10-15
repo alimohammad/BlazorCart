@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorCart", "BlazorCart\BlazorCart.csproj", "{CAA353BB-92AF-4631-B37E-C5351DFAACFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAA353BB-92AF-4631-B37E-C5351DFAACFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAA353BB-92AF-4631-B37E-C5351DFAACFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAA353BB-92AF-4631-B37E-C5351DFAACFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAA353BB-92AF-4631-B37E-C5351DFAACFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D4863E5-FD9E-42A0-A0A1-00CB2331EB01}
+	EndGlobalSection
+EndGlobal
